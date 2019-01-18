@@ -1,0 +1,24 @@
+It's possible the device will disconnect and you'll  
+have to:
+
+$ bluetoothctl
+agent on 
+scan on 
+trust A0:E9:DB:03:56:E0 
+pair A0:E9:DB:03:56:E0
+connect A0:E9:DB:03:56:E0
+
+If it doesn't work, do: 
+remove A0:E9:DB:03:56:E0
+pair A0:E9:DB:03:56:E0
+connect A0:E9:DB:03:56:E0
+
+To set up the Bluetooth speakers as default in pavucontrol:
+
+$ pavucontrol
+
+There's a green checkbox that will make future playback default 
+to the Bluetooth speakers, to the right of the lock icon. It says
+"set as fallback".
+
+The MAC address of the speaker will not change: A0:E9:DB:03:56:E0

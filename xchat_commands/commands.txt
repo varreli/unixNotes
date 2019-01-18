@@ -1,0 +1,1 @@
+/set  gui_tray 0  # gui_tray set to 0 : off. 

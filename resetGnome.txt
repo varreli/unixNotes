@@ -1,0 +1,7 @@
+
+ALT-F2 + 'r' <return>  will restart the gnome shell. This fixes desktop
+corruption type behavior.
+
+See :
+
+https://bugs.freedesktop.org/show_bug.cgi?id=56621

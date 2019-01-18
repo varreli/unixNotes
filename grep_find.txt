@@ -1,0 +1,8 @@
+grep --include=*.hs -rnw haskell -e show
+
+# finds all instances of show in *.hs files in directory haskell
+(show is case sensitive)
+
+grep -rnw path/to/directory -e <pattern>
+
+# finds all instances of <pattern> in the path's directory

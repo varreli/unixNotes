@@ -1,0 +1,8 @@
+﻿$ libreoffice --writer
+
+
+# in osX 'ditto' copies everything , hidden files and subdirectory structure :
+$ ditto directory directory_copy
+
+# in linux 'cp -a' copies everything , hidden files and subdirectory structure :
+$ cp -a directory directory_copy

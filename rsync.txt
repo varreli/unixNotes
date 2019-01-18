@@ -1,0 +1,3 @@
+ $ rsync -avz directory target_directory
+
+## copies all structures and updates target_directory

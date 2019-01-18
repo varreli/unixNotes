@@ -1,0 +1,16 @@
+$ dpkg --purge <package>
+
+ note apt/aptitude/apt-get all use dpkg to install as well...
+ so you can probably do
+
+$  apt-get purge <package>
+
+$ sudo updatedb # this updates locate command database -run after purge etc.
+
+#######################                    ############################
+Note for using large scripts to add text to sources.list.d files:
+
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+
+^ Here, remove the -a flag (append) to prevent duplicate (32bit) lookups in
+sources.list or list.d .

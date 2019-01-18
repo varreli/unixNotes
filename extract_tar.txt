@@ -1,0 +1,7 @@
+#new extraction command called
+
+dtrx file.tar.gz
+
+dtrx file.tar.bz2
+
+#tarball extraction
